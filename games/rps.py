@@ -9,22 +9,22 @@ player = False
 while player == False:
     player = input("Rock, Paper, Scissors?")
     if player == computer:
-        print("Tie!")
+        print("Tie! Well, That's No Fun")
     elif player == "Rock":
         if computer == "Paper":
-            print("You lose!", computer, "covers", player)
+            print("Ouch! You lose!", computer, "covers", player)
         else:
-            print("You win!", player, "smashes", computer)
+            print("Yippee You win!", player, "smashes", computer)
     elif player == "Paper":
         if computer == "Scissors":
-            print("You lose!", computer, "cut", player)
+            print("Wahh Wahh You lose!", computer, "cut", player)
         else:
-            print("You win!", player, "covers", computer)
+            print("Woohoo! You win!", player, "covers", computer)
     elif player == "Scissors":
         if computer == "Rock":
-            print("You lose...", computer, "smashes", player)
+            print("Oh! Sorry You lose...", computer, "smashes", player)
         else:
-            print("You win!", player, "cut", computer)
+            print("Schweeet You win!", player, "cut", computer)
     else:
         print("That's not a valid play. Check your spelling!")
     player = False
