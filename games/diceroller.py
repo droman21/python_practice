@@ -5,7 +5,7 @@ max = 6
 
 while True:
 
-    print('Do you want me to roll the dice?')
+    print('You Feeling Lucky? Roll The Dice!')
 
     answer = input()
 
@@ -23,10 +23,10 @@ The number is ...
 
     elif answer.lower() == 'no' or answer.lower() == 'n':
 
-      print('Ok...')
+      print('Ok. Thank You For Playing!')
 
       break
 
     else:
 
-      print('Give me a real answer...')
+      print('Come On Man. Give me a real answer...')

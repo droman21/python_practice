@@ -12,19 +12,19 @@ while player == False:
         print("Tie! Well, That's No Fun")
     elif player == "Rock":
         if computer == "Paper":
-            print("Ouch! You lose!", computer, "covers", player)
+            print("Ouch! You Lose!", computer, "covers", player)
         else:
-            print("Yippee You win!", player, "smashes", computer)
+            print("Yippee You Win!", player, "smashes", computer)
     elif player == "Paper":
         if computer == "Scissors":
-            print("Wahh Wahh You lose!", computer, "cut", player)
+            print("Wahh Wahh You Lose!", computer, "cut", player)
         else:
-            print("Woohoo! You win!", player, "covers", computer)
+            print("Woohoo! You Win!", player, "covers", computer)
     elif player == "Scissors":
         if computer == "Rock":
-            print("Oh! Sorry You lose...", computer, "smashes", player)
+            print("Oh! Sorry You Lose...", computer, "smashes", player)
         else:
-            print("Schweeet You win!", player, "cut", computer)
+            print("Schweeet You Win!", player, "cut", computer)
     else:
         print("That's not a valid play. Check your spelling!")
     player = False
